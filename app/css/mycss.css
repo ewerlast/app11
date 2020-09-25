@@ -1,0 +1,100 @@
+body{
+    box-sizing: border-box;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShCm9lCRgR4JRUEvNKLXuENQOwR3PmEDx59A&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.modal-wrapper{
+    width: 1024px;
+    min-height: 600px;
+    margin:100px auto;
+    background-repeat: no-repeat;
+   
+   
+}
+
+.my-modal-open{
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    background-color: rgb(7, 241, 230);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    margin-top: 20%;
+    margin-left: 35%;
+    cursor: pointer;
+    
+}
+.my-modal-open:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-color: rgb(4, 26, 18);
+    color: azure;
+}
+/* modal window */
+
+.my-modal{
+    position: fixed;
+    display: none;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(128, 24, 24);
+    opacity: 0.8;
+    
+    
+}
+ 
+.modal-content{
+    width: 85%;
+    height: 85%;
+    margin: 40px auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYxVpP1ulRorM8BoZFrXjOfGAMhONdC3mrLA&usqp=CAU);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+    
+}
+
+.my-modal-close-cross{
+    color:red;
+    display: block;
+    background-color: #fff;
+    font-size: 1.5em;
+    margin-left: 95%;
+    cursor: pointer;
+    
+   
+}
+.my-modal-close{
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    display: block;
+    background-color: rgb(7, 241, 230);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    margin-top: 30%;
+    margin-left: 1%;
+    cursor: pointer;
+  
+}
+.my-modal-close:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    background-color: rgb(4, 26, 18);
+    color: azure;
+}

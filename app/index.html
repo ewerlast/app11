@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mycss.css">
+</head>
+
+<body>
+    <button class="modal-show" data-modal="#sign-in">show window</button>
+
+    <div class="modal-wrap hide">
+        <div class="modal hide" id="sign-in">
+            Our modal window
+            <button class="modal-close" data-modal="#sign-in">Close</button>
+            <button class="modal-close round-close" data-modal="#sign-in">x</button>
+        </div>
+    </div>
+
+
+    <!--! My cod-->
+
+    <div class="modal-wrapper">
+             <button type="button" class="my-modal-open" data-my_modal="#my-modal-open">показать</button>
+
+         <div class="my-modal" id="my-modal-open" >
+             <div class="modal-content">
+                <button type="button" class="my-modal-close-cross" data-my_modal="#my-modal-open">&#10006</button>
+                <button type="button" class="my-modal-close" data-my_modal="#my-modal-open">скрыть</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
